@@ -1,5 +1,6 @@
 public with sharing class CalloutClass 
-{//check for second commit
+{
+	//fast forward commit
 		public static HttpResponse getInfoFromExternalService()
 	 {
 	HttpRequest req = new HttpRequest();

@@ -1,6 +1,5 @@
 public class AccountClass {
-//Check Commit 1 for git1
-//commit 2 git2
+//fast forward check
   List<Opportunity> accounts= new List<Opportunity>();
 
     public AccountClass(ApexPages.StandardController controller) {
