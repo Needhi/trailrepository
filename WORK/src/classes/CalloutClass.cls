@@ -1,8 +1,6 @@
 public with sharing class CalloutClass 
 {
-	//fast forward commit
-		public static HttpResponse getInfoFromExternalService()
-	 {
+  public static HttpResponse getInfoFromExternalService(){
 	HttpRequest req = new HttpRequest();
 	req.setEndpoint('https://ap1.salesforce.com/00Q');
 	req.setMethod('POST');
@@ -10,6 +8,5 @@ public with sharing class CalloutClass
 	Http h = new Http();
 	HttpResponse res = h.send(req);
 	return res;
-	}
- 	
+  }
 }
