@@ -1,7 +1,11 @@
 public with sharing class CalloutClass 
 {
 
+
 	//fast forward commit
+
+	//fast forward commit 
+
 		public static HttpResponse getInfoFromExternalService()
 	 {
 
