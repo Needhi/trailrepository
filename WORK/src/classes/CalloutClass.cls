@@ -1,5 +1,6 @@
 public with sharing class CalloutClass 
 {
+ //dis is first branch 
   public static HttpResponse getInfoFromExternalService(){
 	HttpRequest req = new HttpRequest();
 	req.setEndpoint('https://ap1.salesforce.com/00Q');
