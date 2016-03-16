@@ -10,6 +10,14 @@ public  class AccountDiscountHandlerClass extends AccountDiscountVirtualClass
     	
       acc.Amount_After_Discount__c=(acc.Amount__c-((acc.Amount__c)*c.AmountTAL__c/100));
     }
+	newMethod1();
+  }
+
+  /**
+   * This is VersionBranch extra commit 1
+   */
+  public void newMethod1() {
+  
   }
 
 }
