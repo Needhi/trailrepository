@@ -1,0 +1,397 @@
+#newMappedTable,
+.salesforcePopup {
+    width: 67%;
+    background: #f8f8f8;
+    opacity: 1;
+    -webkit-opacity: 1;
+    position: fixed;
+    top: 35%;
+    left: 14%;
+    z-index: 999;
+    padding: 10px 0px 10px 35px;
+    border: solid grey 1px;
+    border-top: 3px solid #FC8744;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.salesforcePopup {
+    width: 50% !important;
+    top: 39% !important;
+    left: 23% !important;
+    padding-right: 15px !important;
+}
+
+.salesforceStandardTable {
+    width: 100%;
+    border: 1px solid #ddd !important;
+}
+
+.hierarchyLevel {
+    width: 7%;
+}
+
+.actionSection {
+    width: 8%;
+}
+
+.objectSection {
+    width: 11%;
+}
+
+.listFieldSection {
+    width: 8%;
+}
+
+.detailFieldSection {
+    width: 22%;
+}
+
+.modifiedBySection {
+    width: 15%;
+}
+
+.salesforceStandardTable td {
+    word-break: break-word;
+    padding: 4px 5px;
+    border-top: solid 1px #eee;
+}
+
+.salesforceStandardTable td.headerTable,
+.salesforceStandardTable th {
+    font-weight: bold;
+    border: none;
+    border-right: 1px solid #e0e3e5;
+    font-size: .9em;
+    background: #f2f3f3;
+    padding-left: 8px !important;
+}
+
+.salesforceStandardTable tr {
+    background: #FDFDFD;
+}
+
+.salesforceStandardTable tr .noHierarchiesTr {
+    background: #f8f8f8 !important;
+    border: none !important;
+}
+
+#mappingTableDiv {
+    max-height: 250px;
+    overflow: auto;
+}
+
+#mappingTableDiv th {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#mappingTableDiv td {
+    vertical-align: top;
+}
+
+#mappingTableDiv td>select {
+    width: 137px;
+    font-size: 11px;
+}
+
+#mappingTableDetail th {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#mappingTableDetail td {
+    vertical-align: top;
+}
+
+#mappingTableDetail td>select {
+    width: 137px;
+    font-size: 11px;
+}
+
+#mappingTableHeader {
+    text-align: left !important;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.disabledLink {
+    color: #D3D3D3;
+    text-decoration: none;
+}
+
+.disabledLink:hover {
+    color: #D3D3D3;
+    text-decoration: none;
+}
+
+#lnkNewMapping {
+    float: right;
+}
+
+#popupBlock {
+    position: fixed;
+    _position: fixed;
+    height: 100%;
+    width: 100%;
+    top: -0.1%;
+    left: -0.1%;
+    background: #000000;
+    border: 1px solid #cecece;
+    z-index: 998;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+    -webkit-opacity: 0.6;
+    filter: alpha(opacity=0.6);
+}
+
+#objectPicker,
+#fieldPicker {
+    width: 215px;
+}
+
+.objectHierarchyItemContainer .deletedDataError,
+select.deletedDataError {
+    border: 2px red solid !important;
+}
+
+div.taskFormWindow .sectionTaskForm label.mappingErrorMsg {
+    color: red;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 1px;
+    text-align: left;
+}
+
+.buttonsPopupSection {
+    float: right;
+    padding-right: 75px;
+}
+
+.closeButtonContainer {
+    width: 100%;
+}
+
+.popupTitle {
+    font-weight: bold;
+    color: #4a4a56;
+}
+
+.editObjectHierarchy,
+.deleteObjectHierarchy {
+    cursor: pointer;
+    color: rgb(1, 91, 167) !important;
+}
+
+.popupSingleField {
+    border-left: solid 3px #C00;
+}
+
+.popupMainTitle {
+    height: 60px;
+}
+
+.popupMainTitleTd,
+#orderTaskPopupHeader {
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.hrDelimiter {
+    position: absolute;
+    top: 45px;
+    width: 90%;
+}
+
+.fakeAnchor {
+    color: #777 !important;
+}
+
+#orderTaskPopupContainer {
+    height: 120px;
+}
+
+#orderButtonContainer {
+    float: right;
+    padding-right: 9%;
+}
+
+#cancelOrderTaskButton {
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.requiredErrorSpan {
+    color: red;
+    display: none;
+    word-break: break-word;
+}
+
+div.text_explanation {
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #999;
+    background-color: #fcf8f7;
+    color: #333;
+    margin-bottom: 10px
+}
+
+div.text_explanation p {
+    margin: 0;
+}
+
+tr.taskWithError td {
+    border-top: 2px solid red !important;
+    border-bottom: 2px solid red !important;
+}
+
+tr.taskWithError td:first-child {
+    border-left: 2px solid red !important;
+}
+
+tr.taskWithError td:last-child {
+    border-right: 2px solid red !important;
+}
+
+table.tableCollapsed {
+    border-spacing: 0;
+}
+
+.resourceListSection table#resourceListContainerTable {
+    width: 100%;
+    border: solid grey 1px;
+    border-collapse: collapse;
+}
+
+.resourceListSection table#resourceListContainerTable td {
+    border-color: #444444;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.resourceListSection table#resourceListContainerTable th {
+    border-color: #444444;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #aaaaaa;
+}
+
+.resourceListSection table#resourceListContainerTable tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.resourceListSection table#resourceListContainerTable tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+.resourceListSection #resourceListContainer {
+    margin-top: 5px;
+    overflow-y: auto;
+    max-height: 150px;
+}
+
+#resourceListSelectHeader,
+.resourceSelect input {
+    width: 32px !important;
+}
+
+#resourceListContainerTable th,
+#resourceListContainerTable td {
+    padding: 0px 3px;
+    word-break: break-word;
+}
+
+#resourceListContainer #noResourceFoundContainer {
+    text-align: center;
+}
+
+.missingDataError {
+    border: 2px solid red !important;
+}
+
+.deletedResourceContainer {
+    text-align: center;
+    margin-top: 5px;
+    color: red;
+}
+
+.hiddenElement {
+    display: none;
+}
+
+.removeHierarchy {
+    float: right;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.drillDownLevelDiv {
+    border: 1px solid #999;
+    margin-top: 1%;
+    padding: 1%;
+    overflow: hidden;
+}
+
+.drillDownText {
+    float: left;
+    margin-top: 0.5%;
+    margin-right: 2%;
+    max-width: 25%;
+    word-break: break-all;
+}
+
+#btnAddObject {
+    margin-bottom: 1%;
+    float: left
+}
+
+.drillDownNamePencilEdit {
+    float: left;
+    width: 1.8%;
+    cursor: pointer;
+}
+
+#drillDownNameTextBox {
+    margin-bottom: 2%;
+}
+
+.drillDownNameContainer {
+    float: left;
+    width: 20%
+}
+
+.drillDownNameRequiredError {
+    margin-bottom: 4%;
+    margin-top: 1%;
+    padding: 0%;
+    color: red;
+    display: none;
+    word-break: break-word;
+}
+
+#drillDownNameText {
+    width: 210px;
+}
+
+.drillDownNameInputClass {
+    margin-top: 5px;
+    float: left;
+}
+
+.drillDownNameInformationClass {
+    margin: -4px 0px;
+    padding-left: 5px;
+    overflow: auto;
+    font-weight: bold;
+}
+
+pre {
+    font-family: Arial;
+    margin: 0;
+}
