@@ -9,6 +9,8 @@ public  class AccountDiscountHandlerClass extends AccountDiscountVirtualClass
     {
     	
       acc.Amount_After_Discount__c=(acc.Amount__c-((acc.Amount__c)*c.AmountTAL__c/100));
+	  // This is resolution change
+	  acc.Amount_After_Discount__c=acc.Amount_After_Discount__c+100;
     }
 	newMethod1();
 	secondMethod();
